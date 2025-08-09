@@ -55,7 +55,7 @@ Raw Data → Preprocessing → Autoencoders → Embeddings → Classification
    - Sequence length normalization
 
 2. **Recurrent Autoencoders** (`src/models/Autoencoder/`)
-   - LSTM/GRU-based encoder-decoder architecture
+   - LSTM-based encoder-decoder architecture
    - 16-dimensional embedding generation
    - Reconstruction error computation for anomaly scoring
 
@@ -85,20 +85,21 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/deep_learning_for_energy_recovery.git
-cd deep_learning_for_energy_recovery
+git clone https://github.com/Davidermellino/Energy-Fraud-Detection-System-based-on-Deep-Learning.git
+cd Energy-Fraud-Detection-System-based-on-Deep-Learning
+
 ```
-3. **Download Data**
+2. **Download Data**
 you can download the dataset from the [official challenge website](https://openinnovability.enel.com/it/challenge/call/2025/3/protezione-ricavi-energia-serie-temporali)
 
 
-2. **Install dependencies**
+3. **Install dependencies**
 ```bash
 # Using uv (recommended)
 uv sync
 ```
 
-3. **Prepare your data**
+4. **Prepare your data**
    - Place your CSV files in the `data/raw/` directory
    - Ensure files follow the expected naming convention:
      - `ANAGRAFICA.csv`

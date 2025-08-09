@@ -80,23 +80,8 @@ target/
 !/data/raw/.gitkeep
 /data/processed/*
 !/data/processed/.gitkeep
-/data/embeddings/*/*
-!/data/embeddings/*/.gitkeep
-/data/combined_embeddings/*/*
-!/data/combined_embeddings/*/.gitkeep
 
-# exclude model files from source control by default, but keep folder structure
-/models/*
-!/models/.gitkeep
-!/models/*/
-/models/Autoencoder/*/*
-!/models/Autoencoder/*/.gitkeep
-/models/DNN/*/*
-!/models/DNN/*/.gitkeep
-/models/RandomForest/*/*
-!/models/RandomForest/*/.gitkeep
-/models/XGBoost/*/*
-!/models/XGBoost/*/.gitkeep
+
 
 # Mac OS-specific storage files
 .DS_Store
