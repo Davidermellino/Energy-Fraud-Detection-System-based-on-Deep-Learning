@@ -1,0 +1,29 @@
+[project]
+name = "deep_learning_for_energy_recovery"
+version = "0.0.1"
+requires-python = "==3.11.*"
+description = "Enel Innothon 2025 - Use of Deep Learning for detect energy fraud"
+authors = [
+  { name="Davide Ermellino", email="ermellinodavide@gmail.com" }
+]
+
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "pandas",
+  "seaborn",
+  "tqdm",
+  "polars",
+  "scikit-learn==1.3.2",
+  "keras",
+  "tensorflow",
+  "pydot",
+  "torch",
+  "pytorch-lightning",
+  "torchmetrics",
+  "pyarrow",
+  "xgboost",
+  "imbalanced-learn==0.11.0",
+  "shap",
+  "argparse",
+]
